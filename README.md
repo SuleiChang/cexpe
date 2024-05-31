@@ -1,8 +1,20 @@
-# React + Vite
+# Lab Cexpe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Laboratorio desarrollado. Funcionalidades agregadas son el navbar con activación y las rutas dinámicas de los talleres.
 
-Currently, two official plugins are available:
+## Rutas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `/` - Página principal
+- `/talleres` - Página de servicios
+- `/talleres/:id` - Página de detalle de un servicio (el *id* sería un taller)
+
+## Demostración
+
+### 1. Navbar activo
+
+![Navbar activo](https://github.com/SuleiChang/cexpe/assets/170781882/20a513b6-e775-4133-8598-fbea1edcefd8)
+
+### 2. Talleres
+
+![Talleres1](https://github.com/SuleiChang/cexpe/assets/170781882/1aef7cad-9989-483a-af43-7106c12eaa40)
+![Talleres2](https://github.com/SuleiChang/cexpe/assets/170781882/729de715-ece1-43c7-b6eb-7d1ecb82df0a)
