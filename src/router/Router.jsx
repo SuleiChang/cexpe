@@ -6,6 +6,7 @@ import CustomerPage from "../pages/CustomerPage";
 import ProjectsPage from "../pages/ProjectsPage";
 import BlogPage from "../pages/BlogPage";
 import ContactPage from "../pages/ContactPage";
+import ServiceDetailPage from "../pages/ServiceDetailPage";
 
 function Router() {
   return (
@@ -13,7 +14,8 @@ function Router() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<HomePage />} />
-          <Route path="/servicios/:param?" element={<ServicesPage />} />
+          <Route path="/servicios" element={<ServicesPage />} />
+          <Route path="/servicios/:id" element={<ServiceDetailPage />} />
           <Route path="/clientes/:param?" element={<CustomerPage />} />
           <Route path="/proyectos/:param?" element={<ProjectsPage />} />
           <Route path="/blog/:param?" element={<BlogPage />} />
