@@ -14,10 +14,10 @@ function Router() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<HomePage />} />
-          <Route path="/servicios" element={<ServicesPage />} />
-          <Route path="/servicios/:id" element={<ServiceDetailPage />} />
-          <Route path="/clientes/:param?" element={<CustomerPage />} />
-          <Route path="/proyectos/:param?" element={<ProjectsPage />} />
+          <Route path="/talleres" element={<ServicesPage />} />
+          <Route path="/talleres/:id" element={<ServiceDetailPage />} />
+          <Route path="/programas/:param?" element={<CustomerPage />} />
+          <Route path="/asesoramiento" element={<ProjectsPage />} />
           <Route path="/blog/:param?" element={<BlogPage />} />
           <Route path="/contacto" element={<ContactPage />} />
         </Route>
